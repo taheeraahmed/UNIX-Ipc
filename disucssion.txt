@@ -1,0 +1,26 @@
+Task 1b
+
+• What is the largest block size supported on your system?
+After running the code with several different block sizes, the largest block size we were able to send in 
+before the values turned negative was 5519 bytes.
+
+
+• What is the highest bandwidth you can achieve and at which block size is this bandwidth achieved?
+The highest bandwidth we achieved was approximately between block sizes 4000 - 5000. 
+
+
+• Does the bandwidth change when you start several instances of your program at the same time?
+Yes. When only running the process in one terminal we see the bandwidth is a certain size, when we start running another process 
+the bandwidth in the first process significantly decreases. When we terimante one of the two processes, the bandwidth of the 
+currently running process increases again. 
+
+Task 1d
+• What is the largest block size supported on your system?
+The largest block size supported in our system is 20 GB, which in our humble opinion is quite a lot of bytes. 
+
+• What is the highest bandwidth you can achieve and at which block size is this bandwidth achieved?
+The highest bandwidth we acheived was 1.3 GB/sec, the block we passed through the pipe was 20 kB big. 
+
+
+• Does the bandwidth change when you start several instances of your program at the same time?
+Yes, but the changes are less drastic than they were for the unnamed pipes :)))
